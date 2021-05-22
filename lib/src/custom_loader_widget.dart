@@ -3,22 +3,19 @@ import 'package:lottie/lottie.dart';
 
 class CustomLoaderWidget extends StatelessWidget {
   final String assets;
-  final height;
-  final width;
+  final double height;
+  final double width;
   final onTap;
 
   CustomLoaderWidget({
-    @required this.assets,
-    this.height,
-    this.width,
-    this.onTap,
+    required this.assets,
+    required this.height,
+    required this.width,
+    required this.onTap,
   });
-
-
 
   @override
   Widget build(BuildContext context) {
-
     return GestureDetector(
       onTap: onTap,
       child: Scaffold(
@@ -27,8 +24,8 @@ class CustomLoaderWidget extends StatelessWidget {
           child: Lottie.asset(
             assets,
             package: 'flutter_loading_kit',
-            height: height != null ? height:100.0,
-            width: width != null ? width:100.0,
+            height: height,
+            width: width,
             fit: BoxFit.cover,
           ),
         ),

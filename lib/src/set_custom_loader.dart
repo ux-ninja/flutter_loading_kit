@@ -7,7 +7,7 @@ class SetCustomLoader {
   final CustomLoaderWidget customAlertDialog;
   final BuildContext context;
 
-  SetCustomLoader({this.context, this.customAlertDialog,});
+  SetCustomLoader({required this.context, required this.customAlertDialog,});
 
   Future<void> setDialog() {
     return showDialog<void>(

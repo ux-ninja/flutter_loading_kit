@@ -4,11 +4,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_loading_kit/flutter_loading_kit.dart';
 
 void main() {
-  runApp(testApp());
+  runApp(TestApp());
 }
 
-// ignore: camel_case_types
-class testApp extends StatelessWidget {
+class TestApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,16 +29,14 @@ class AnimatedLoaderExample extends StatefulWidget {
 
 class _AnimatedLoaderExampleState extends State<AnimatedLoaderExample> {
   var gifImageList = [
-    AnimatedLoader.basketBall,
-    AnimatedLoader.plane,
-    AnimatedLoader.toasterDialog,
-    AnimatedLoader.liquidBubble,
-    AnimatedLoader.orangeEmoji,
-    AnimatedLoader.chargingIndicator,
-    AnimatedLoader.robotHello,
-    AnimatedLoader.loadingRobot,
-    AnimatedLoader.launchRocket,
-    AnimatedLoader.paymentCard,
+    AnimatedLoader.BASKETBALL,
+    AnimatedLoader.PLANE,
+    AnimatedLoader.TOASTER_DIALOG,
+    AnimatedLoader.LIQUID_BUBBLE,
+    AnimatedLoader.CHARGER,
+    AnimatedLoader.ROBOT_HELLO,
+    AnimatedLoader.ROBOT_WAIT,
+    AnimatedLoader.PAYMENT_CARD,
   ];
 
   List<String> animationName = [
@@ -47,11 +44,9 @@ class _AnimatedLoaderExampleState extends State<AnimatedLoaderExample> {
     'Plane',
     'Toaster',
     'Liquid Bubble',
-    'Orange Emoji',
     'Charging Indicator',
     'Robot Hello',
     'Loading Robot',
-    'Launching Rocket',
     'Payment Card',
   ];
 
@@ -61,7 +56,7 @@ class _AnimatedLoaderExampleState extends State<AnimatedLoaderExample> {
       context: context,
       height: 150.0,
       width: 150.0,
-      isDismissable: true,
+      isDismissible: true,
     );
     return Scaffold(
       appBar: AppBar(
