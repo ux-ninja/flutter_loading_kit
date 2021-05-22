@@ -41,6 +41,8 @@ For more info, please, refer to the `main.dart` in the example.
 
 ## 🚀 Showcase
 
+![Alt Text](https://github.com/ux-ninja/flutter_loading_kit/blob/master/assets/loding1.gif)
+
 
 ## 🐛 Bugs/ Requests
 
