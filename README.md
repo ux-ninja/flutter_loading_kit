@@ -75,7 +75,7 @@ ___
       </p>
     </td>
     <td align="center">
-      <a href = "https://www.hackerrank.com/sanjayas430?hr_r=1"><img src="https://avatars3.githubusercontent.com/u/63769036?s=400&v=4" width="80" alt="Sanjay AS" /></a>
+      <a href = "https://sanjayas144.github.io/portfolio/index.html"><img src="https://avatars.githubusercontent.com/u/63769036?s=96&v=4" width="80" alt="Sanjay AS" /></a>
        <hr>
       <p align="center">
         <a href = "https://github.com/SanjayAS144"><img src = "https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" width="18" height = "18"/></a>&nbsp;
